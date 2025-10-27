@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+env/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+*.sqlite
+
+# AI Models (large files - don't push to GitHub)
+*.bin
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pickle
+.cache/
+models/
+*.model
+
+# Sensitive files
+.env
+.env.local
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Node modules (if you have React frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# RAG cache
+Interview_App/RAG/.cache/
+
+# Benchmark results
+*_benchmark_results.json
