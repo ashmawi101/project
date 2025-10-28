@@ -1,0 +1,71 @@
+.home {
+  padding: 2rem;
+  font-family: 'Roboto', sans-serif;
+  background: white;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  /* background: linear-gradient(-135deg, #b0cddf, #3f7d89); */
+  background: linear-gradient(135deg, #4dc5a5, #48c6ef);
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  margin-bottom: 2rem;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.hero-buttons .get-started,
+.hero-buttons .learn-more {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.hero-buttons .get-started {
+  background: #037f68;
+  color: white;
+}
+
+.hero-buttons .get-started:hover {
+  background: #58e5cb;
+}
+
+.hero-buttons .learn-more {
+  background: #ffffff;
+  color: #037f68;
+}
+
+.hero-buttons .learn-more:hover {
+  background: #b3e7e2;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #7d7d7d;
+}

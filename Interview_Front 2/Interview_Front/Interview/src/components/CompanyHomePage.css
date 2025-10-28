@@ -1,0 +1,45 @@
+.company-home-page {
+    padding: 2rem;
+    background-color: #f0f4f8; /* Light background for better contrast */
+  }
+  
+  .header {
+    text-align: center;
+    background-color: #b0cddf;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #3f7d89;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: #7d7d7d;
+  }
+  
+  .company-info, .featured-jobs {
+    margin-top: 2rem;
+  }
+  
+  .jobs {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .job-card {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .job-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+  }
+  

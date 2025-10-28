@@ -1,0 +1,35 @@
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background-color: #ffffff;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #000000;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .get-started, .learn-more {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .get-started {
+    background-color: #3f7d89;
+    color: white;
+  }
+  
+  .learn-more {
+    background-color: transparent;
+    color: #3f7d89;
+  }
+  

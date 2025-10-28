@@ -1,0 +1,75 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  
+  }
+  
+  .navbar-logo a {
+    font-size: 2rem;
+    font-weight:900;
+    color: #3f7d89;
+    text-decoration: none;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .navbar-links a {
+    color: #3f7d89;
+    text-decoration: none;
+    font-size: 1rem;
+    display:flex;
+    justify-content:center;
+  }
+  
+  .navbar-links a:hover{
+    color: #3f7d89;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display:flex;
+    justify-content:center;
+  }
+  
+  .navbar-auth {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .username-button {
+    padding: 0.5rem 1rem;
+    background-color: #b0cddf;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .login-button,
+  .register-button,
+  .username-button {
+    padding: 0.5rem 1rem;
+    background-color: #b0cddf;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .login-button:hover,
+  .register-button:hover,
+  .username-button:hover {
+    background-color: #037f68;
+    transition: background 0.3s ease;
+    }
+  

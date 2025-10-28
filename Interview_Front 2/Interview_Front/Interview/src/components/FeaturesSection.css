@@ -1,0 +1,24 @@
+.features-section {
+  text-align: center;
+  margin-top: 2rem;
+  background-color: #b0cddf;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.features-section h2 {
+  font-size: 2rem;
+  color: #3f7d89;
+}
+
+.features-section h3 {
+  font-size: 1.5rem;
+  color: #7d7d7d;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}

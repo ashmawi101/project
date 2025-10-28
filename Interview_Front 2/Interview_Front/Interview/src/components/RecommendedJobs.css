@@ -1,0 +1,28 @@
+.recommended-jobs-page {
+    padding: 2rem;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header h2 {
+    font-size: 2rem;
+    color: #3f7d89;
+  }
+  
+  .job-results {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .job-card {
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  

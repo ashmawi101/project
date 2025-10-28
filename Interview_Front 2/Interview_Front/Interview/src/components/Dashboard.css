@@ -1,0 +1,174 @@
+.dashboard {
+  padding: 2rem;
+  background-color: #ffffff;
+  color: #3f7d89;
+}
+
+h2 {
+  color: #3f7d89;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.carousel-container {
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.carousel-item {
+  height: 150px;
+  background-color: #b0cddf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  padding: 1rem;
+  flex: 0 0 80%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  overflow-wrap: break-word; /* Ensure long text wraps within the box */
+}
+
+.carousel-item:hover {
+  /* transform: translateY(-5px); */
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
+  background-color: #037f68;
+  transition: background 0.3s ease;
+}
+
+.carousel-item .value {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.carousel-item .text {
+  font-size: 1rem;
+  font-weight: bold;
+  overflow-wrap: break-word; /* Ensure long text wraps within the box */
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 4;
+  background-color: #037f68;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0.0;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: #037f68;
+  transition: background 0.3s ease;
+  color: white;
+  opacity: 1;
+}
+
+.left-arrow {
+  left: 10px;
+}
+
+.right-arrow {
+  right: 10px;
+}
+
+.recommended-jobs,
+.interviews-made {
+  margin-top: 2rem;
+}
+
+.recommended-jobs h2,
+.interviews-made h2 {
+  color: #3f7d89;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.job-list,
+.interview-list {
+  max-height: 400px;
+  overflow-y: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.job-list .job-item,
+.interview-list .interview-item {
+  padding: 1rem;
+  color: white;
+  font-weight: 1000;
+  background-color: #b0cddf;
+  border-bottom: 1px solid #dddddd8e;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.job-list .job-item:first-child,
+.interview-list .interview-item:first-child {
+  color: white;
+  font-weight: 1000;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.job-list .job-item:last-child,
+.interview-list .interview-item:last-child {
+  color: white;
+  font-weight: 1000;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.job-list .job-item:hover,
+.interview-list .interview-item:hover {
+  background-color: #3f7d89;
+  transition: background 0.3s ease;
+}
+
+.job-list .job-item h3,
+.interview-list .interview-item h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff; /* Text color set to white */
+  font-weight: 1000;
+}
+
+.job-list .job-item p,
+.interview-list .interview-item p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #ffffff; /* Text color set to white */
+}
+
+.job-list .job-item .company-name,
+.interview-list .interview-item .company-name {
+  font-weight: bold;
+  color: #ffffff; /* Text color set to white */
+}
+
+.job-list .job-item .location,
+.interview-list .interview-item .location {
+  font-style: italic;
+  color: #ffffff; /* Text color set to white */
+}

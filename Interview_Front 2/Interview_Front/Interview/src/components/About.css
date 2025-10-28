@@ -1,0 +1,33 @@
+.about-page {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f4f8; /* Light background for better contrast */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .header h2 {
+    font-size: 2.5rem; /* Slightly larger for emphasis */
+    color: #3f7d89;
+  }
+  
+  .about-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px; /* Increased max-width for better readability */
+  }
+  
+  .about-content p {
+    font-size: 1.1rem; /* Slightly larger font size */
+    color: #555; /* Darker text for better readability */
+    line-height: 1.6; /* Increased line height for better readability */
+  }
+  

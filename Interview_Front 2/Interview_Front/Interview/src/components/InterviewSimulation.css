@@ -1,0 +1,110 @@
+.interview-simulation {
+  padding: 2rem;
+  background-color: #f0f4f8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  margin: 0;
+  font-size: 2rem;
+  color: #3f7d89;
+}
+
+.header h3 {
+  margin: 0.5rem 0;
+  font-size: 1.5rem;
+  color: #3f7d7d;
+}
+
+.header p {
+  font-size: 1rem;
+  color: #7d7d7d;
+}
+
+.chat-area {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  max-height: 400px;
+  overflow-y: auto;
+  background-color: #ffffff;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  max-width: 60%;
+  display: inline-block;
+}
+
+.user-message {
+  background-color: #b0cddf;
+  align-self: flex-end;
+  text-align: right;
+  margin-left: auto; /* Ensure user message is on the right */
+}
+
+.system-message {
+  background-color: #e0f7fa;
+  align-self: flex-start;
+  text-align: left;
+  margin-right: auto; /* Ensure system message is on the left */
+}
+
+.input-area {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  margin-right: 0.5rem;
+}
+
+.input-area button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #b0cddf;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.record-button {
+  background-color: #b0cddf;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.visualizer {
+  width: 100%;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: none;
+  margin-bottom: 0.5rem;
+}
+
+.visualizer.visible {
+  display: block;
+}
